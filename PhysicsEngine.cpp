@@ -73,6 +73,7 @@ void GenerateNewSphere()
 		case 1:
 			newSphere.SetColor(vec4(1.0f, 0.0f, 0.0f, 1.0f));
 			newSphere.SetMass(1.0);
+			newSphere.SetScale(vec3{ 1.f });
 			break;
 		case 2:
 			newSphere.SetMass(2.0);
